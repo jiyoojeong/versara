@@ -1,11 +1,12 @@
 html, body {
-    background-color: #6b77cd;
+    background-color: #6b8fe6ff;
     font-family: "Avenir Next Condensed", sans-serif;
     font-weight: lighter;
     color: white;
     text-align: center;
     font-size: 50px;
     padding-top: 2px;
+    letter-spacing: 3px;
 }
 
 h1, h2 {
@@ -13,12 +14,16 @@ h1, h2 {
     font-weight: lighter;
 }
 
-li {
+.nav li {
     display: inline;
     width:100%;
     horiz-align: left;
     color: #97a3ff;
     padding-right: 60px;
+}
+li {
+    text-align: left;
+    margin-left: 50px;
 }
 li a {
     color: #97a3ff;
@@ -26,9 +31,10 @@ li a {
 }
 
 li:hover a {
-    color: #6b77cd;
+    color: #6b8fe6ff;
     font-weight: normal;
 }
+/*
 ul {
     background-color: white;
     opacity: .5;
@@ -38,6 +44,8 @@ ul {
     display: table-row;
     row-gap: 40px;
 }
+*/
+
 
 .main-title {
     height: 95%;
@@ -70,7 +78,7 @@ ul {
     color: rgba(189,186,255,0.68);
 }
 
-nav {
+.nav {
     padding: 5px;
     width: 100%;
     background-color: white;
@@ -78,7 +86,7 @@ nav {
 }
 
 #how-to-images {
-    display: inline-block;
+    display: table-row;
     padding: 0;
 }
 
@@ -98,10 +106,24 @@ ol.horizontal {
 footer {
     background-color: white;
     text-align: center;
-    color: #6b77cd;
+    color: #6b8fe6ff;
 }
 
 .second {
     background: ghostwhite;
-    color: #6b77cd;
+    color: #6b8fe6ff;
+}
+
+#how-to-vid {
+    width: 60%;
+}
+
+.information {
+    width: 70%;
+    text-align: center;
+    margin: auto;
+}
+
+.information .container-info {
+    display: inline-block;
 }
