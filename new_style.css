@@ -1,0 +1,130 @@
+html, body {
+    background-color: #6b8fe6ff;
+    font-family: "Avenir Next Condensed", sans-serif;
+    font-weight: lighter;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 2px;
+    letter-spacing: 3px;
+}
+
+h1, h2, h3 {
+    font-family: "Avenir Next",sans-serif;
+    font-weight: lighter;
+    font-size: 70px;
+}
+
+.nav li {
+    display: inline;
+    width:100%;
+    horiz-align: left;
+    color: #97a3ff;
+    padding-right: 60px;
+}
+li {
+    text-align: left;
+    margin-left: 50px;
+}
+li a {
+    color: #97a3ff;
+    text-decoration: none;
+}
+
+li:hover a {
+    color: #6b8fe6ff;
+    font-weight: normal;
+}
+/*
+ul {
+    background-color: white;
+    opacity: .5;
+    width: 100%;
+    padding-left: 0;
+    margin-left: 100px;
+    display: table-row;
+    row-gap: 40px;
+}
+*/
+
+
+.main-title {
+    height: 95%;
+    position: relative;
+    text-align: center;
+    margin: 1%;
+
+}
+
+#versara {
+    border: solid 1px white;
+    border-right: none;
+    border-left: none;
+    font-size: 250px;
+    text-align: center;
+    width: 100%;
+    font-weight: lighter;
+}
+
+.container {
+    align-items:center;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+#snippet {
+    font-size: 60px;
+    color: rgba(189,186,255,0.68);
+}
+
+.nav {
+    padding: 5px;
+    width: 100%;
+    background-color: white;
+    opacity: 40%;
+}
+
+#how-to-images {
+    display: table-row;
+    padding: 0;
+}
+
+li img {
+    width: 40%;
+}
+
+ol.horizontal li {
+    float:left;
+    width: 30%;
+    padding: 1%;
+}
+ol.horizontal {
+    list-style: decimal;
+    width: 100%;
+}
+footer {
+    background-color: white;
+    text-align: center;
+    color: #6b8fe6ff;
+}
+
+.second {
+    background: ghostwhite;
+    color: #6b8fe6ff;
+}
+
+#how-to-vid {
+    width: 60%;
+}
+
+.information {
+    width: 90%;
+    text-align: center;
+    margin: auto;
+}
+
+.information .container-info {
+    display: inline-block;
+}
