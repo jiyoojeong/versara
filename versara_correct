@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Versara</title>
+</head>
+<body>
+<div>
+<nav class="navigation">
+<ul>
+<li>How it Works</li>
+<li>About Us</li>
+<li>Contact Us</li>
+<li>Join Us</li>
+</ul>
+</nav>
+</div>
+<div class="main-title">
+<h1 id="versara">V E R S A R A</h1>
+	<span> *insert short one liner* </span>
+</div>
+</body>
+</html>
