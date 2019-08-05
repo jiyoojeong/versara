@@ -128,3 +128,7 @@ footer {
 .information .container-info {
     display: inline-block;
 }
+
+a:visited {
+    color: white;
+}
